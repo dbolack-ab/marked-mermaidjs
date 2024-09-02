@@ -1,5 +1,5 @@
 {
-  "name": "marked-mermaid",
+  "name": "marked-mermaidjs",
   "version": "0.1.1",
   "description": "Marked.js extensions to render Mermaid.js",
   "main": "./lib/index.cjs",
