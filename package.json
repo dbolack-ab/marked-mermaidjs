@@ -1,6 +1,6 @@
 {
   "name": "marked-mermaid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Marked.js extensions to render Mermaid.js",
   "main": "./lib/index.cjs",
   "module": "./src/index.js",
@@ -29,14 +29,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichielDeMey/marked-mermaid.git"
+    "url": "git+https://github.com/dbolack-ab/marked-mermaid.git"
   },
   "author": "Michiel De Mey <michiel@spaceowl.be> (https://spaceowl.be)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MichielDeMey/marked-mermaid/issues"
+    "url": "https://github.com/dbolack-ab/marked-mermaid/issues"
   },
-  "homepage": "https://github.com/MichielDeMey/marked-mermaid#readme",
+  "homepage": "https://github.com/dbolack-ab/marked-mermaid#readme",
   "peerDependencies": {
     "marked": "11.2.0"
   },
@@ -66,6 +66,6 @@
   },
   "dependencies": {
     "lodash.memoize": "^4.1.2",
-    "mermaid": "^10.9.0"
+    "mermaid": "^9.4.1"
   }
 }
