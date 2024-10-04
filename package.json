@@ -1,6 +1,6 @@
 {
   "name": "marked-mermaidjs",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Marked.js extensions to render Mermaid.js",
   "main": "./lib/index.cjs",
   "module": "./src/index.js",
@@ -66,6 +66,6 @@
   },
   "dependencies": {
     "lodash.memoize": "^4.1.2",
-    "mermaid": "^9.4.1"
+    "mermaid": "^11.2.1"
   }
 }
