@@ -50,7 +50,7 @@ export default function markedMermaid(options = {}) {
         let htmlContent = `<pre class="mermaid">${text}</pre>`;
         if (!initialized) {
           htmlContent += `<script type="module">
-            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.esm.min.mjs';
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.2.1/dist/mermaid.esm.min.mjs';
             mermaid.initialize(${JSON.stringify({ startOnLoad: true, ...options.mermaid })});
           </script>`;
 

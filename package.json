@@ -8,8 +8,13 @@
   "type": "module",
   "keywords": [
     "marked",
-    "extension"
+    "extension",
+    "mermaidjs"
   ],
+  "engines": {
+    "npm": "^10.8.x",
+    "node": "^20.18.x"
+  },
   "files": [
     "lib/",
     "src/"
@@ -66,6 +71,6 @@
   },
   "dependencies": {
     "lodash.memoize": "^4.1.2",
-    "mermaid": "^11.2.1"
+    "mermaid": "^9.4.3"
   }
 }
